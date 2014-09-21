@@ -1,0 +1,37 @@
+{
+    "name": "coral-auth",
+    "description": "Authentication framework based on the tokens to use in client side apps",
+    "version": "0.0.1",
+    "author": {
+        "name": "Prathamesh Satpute",
+        "email": "prathamesh.satpute@gmail.com"
+    },
+    "keywords": [
+        "authentication",
+        "mongoose",
+        "express",
+        "node"
+    ],
+    "scripts": {
+        "test": "grunt test --verbose"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/prathamesh7pute/coral-auth.git"
+    },
+    "dependencies": {
+        "bcryptjs": "2.0.2",
+        "jwt-simple": "0.2.0",
+        "moment": "2.8.3",
+        "mongoose": "3.8.16",
+        "request": "2.44.0"
+    },
+    "devDependencies": {
+        "grunt": "0.4.5",
+        "grunt-contrib-jshint": "0.10.0",
+        "grunt-contrib-watch": "0.6.1",
+        "supertest": "0.13.0",
+        "should": "4.0",
+        "mocha": "1.21.4"
+    }
+}
